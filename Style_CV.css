@@ -76,3 +76,17 @@ main {
 #centres_interet {
     padding-left: 0px;
 }
+@media screen and (min-width: 600px) {
+    main {
+      display: flex;
+    }    
+    #bloc_profil {
+      flex: 1;
+    }    
+    #bloc_experience {
+      flex: 1;
+    }
+    #bloc_formation {
+        flex: 1;
+    }
+}
