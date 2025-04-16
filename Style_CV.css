@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0.5vw;
 }
 
 /* HEADER */
@@ -52,8 +52,8 @@ main {
     flex-direction: row;
     flex-wrap: wrap; /* Permet d’éviter les coupures sur petits écrans */
     justify-content: center;
-    gap: 20px; /* Ajoute un espace entre les blocs */
-}
+    gap: 20px; /*Ajoute un espace entre les blocs*/
+} 
 
 /* SECTIONS */
 #bloc_formation, #bloc_profil, #bloc_experience {
@@ -87,7 +87,6 @@ main {
 /* ICONES */
 .icon {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     gap: 10px;
 }
@@ -121,4 +120,5 @@ main {
         max-width: 100%;
     }
 }
+
 
